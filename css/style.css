@@ -28,6 +28,7 @@ header {
     font-size: 24px;
     color: black;
     font-family: 'Montserrat';
+    transition: linear 0.3s;
 }
 .active {
     color: #B80F14;
@@ -40,6 +41,7 @@ header {
 }
 .categories:hover {
     color: #B80F14;
+    font-size: 35px;
 }
 /* section1 */
 .section1-wrapper {
@@ -97,5 +99,6 @@ header {
     font-weight: 600;
 }
 .read-more-div:hover {
-    background-color: grey;
+    background-color: #E4DBF9;
 }
+
