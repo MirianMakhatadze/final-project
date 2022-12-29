@@ -1,10 +1,10 @@
 body {
-    background-color: black;
+    background-color: white;
 }
 header {
     width: 100%;
     height: auto;
-    background-color: #E4DBF9;
+    background-color: black;
 }
 .header-div {
     max-width: 1540px;
@@ -17,6 +17,9 @@ header {
 }
 .logo {
     width: 219px;
+    background-color: #B80F14;
+    cursor: pointer;
+    z-index: 10;
 }
 .categories-wrapper {
     max-width: 500px;
@@ -26,7 +29,7 @@ header {
 }
 .categories {
     font-size: 20px;
-    color: black;
+    color: white;
     font-family: 'Montserrat';
     transition: linear 0.3s;
 }
@@ -44,12 +47,27 @@ header {
     font-size: 22px;
 }
 /* section1 */
+.logo-background-wrapper {
+    max-width: 1540px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: left;
+    padding-right: 550px;
+}
+.logo-background {
+    background-color: #B80F14;
+    width: 219px;
+    height: 20px;
+    box-shadow: 15px 10px 20px grey;
+}
 .slider {
     display: flex;
     max-width: 1500px;
     width: 100%;
     margin: 0 auto;
     margin-top: 50px;
+
 }
 .slider .slider_item {
     width: 100%;
@@ -63,9 +81,10 @@ header {
 }
 .hover-zoom {
     transition: ease-out 0.3s;
+    position: relative;
 }
 .hover-zoom:hover {
-    transform: scale(1.1);
+    transform: scale(1.03);
 }
 .section1-text {
     max-width: 1540px;
