@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+	<link href="https://kenwheeler.github.io/slick/slick/slick-theme.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/fonts.css">
@@ -29,41 +30,36 @@
             </div>
         </div>
     </header>
-    <section>
-        <div class="section1-wrapper">
-            <div class="image-wrapper">
-                <img class="section1-images" src="images/car-img.jpg" alt="car-image">
-                <img class="section1-images" src="images/interior-img.jpg" alt="car-image">
-                <img class="section1-images" src="images/car-img2.jpg" alt="car-image">
-                <img class="section1-images" src="images/brakelight.jpg" alt="">
-            </div>
-            <div class="section1-text">
-                <i class="fa-solid fa-chevron-left"></i>
-                <div class="text-div">
-                    <h2 class="section1-headline">Want a steady relationship? Get a Porsche!</h2>
-                    <p class="section1-paragraph"> the most reliable and high performance cars in Germany!</p>
-                </div>
-                <div class="read-more-div">
-                    <p class="read-more">Read More</p>
-                </div>
-                <i class="fa-solid fa-chevron-right"></i>
-            </div>
-        </div>
+    <section id="slick">
+        <div class="slider multiple-items">
+			<div class="slider_item">
+				<img class="hover-zoom" src="images/porsche-1.png" alt="">
+			</div>
+			<div class="slider_item">
+				<img class="hover-zoom" src="images/brakes.png" alt="">
+			</div>
+			<div class="slider_item">
+				<img class="hover-zoom" src="images/interior.png" alt="">
+			</div>
+			<div class="slider_item">
+				<img class="hover-zoom" src="images/suv.png" alt="">
+			</div>
+			<div class="slider_item">
+				<img class="hover-zoom" src="images/vintage.png" alt="">
+			</div>
+		</div>
     </section>
     <section>
-        <div class="section2-wrapper">
-            <div class="section2-block"></div>
-            <div class="section2-block"></div>
-            <div class="section2-block"></div>
-        </div>
     </section>
     <footer>
-        <div class="socials">
-            <h2 class="follow-us">Follow Us:</h2>
-            <img src="images/icon-1.png" alt="socials-icon">
-            <img src="images/icon-2.png" alt="socials-icon">
-            <img src="images/icon-3.png" alt="socials-icon">
-        </div>
     </footer>
+
+
+    <!-- Jquery cdn link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- Slick Js file -->
+	<script src="js/slick.min.js"></script>
+	<!-- Main js with code -->
+	<script src="js/script.js"></script>
 </body>
 </html>
