@@ -13,7 +13,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
-    padding-right: 550px;
+    padding-right: 150px;
 }
 .logo {
     width: 219px;
@@ -42,9 +42,31 @@ header {
     width: 100%;
     justify-content: space-between;
 }
+.search-div {
+    width: 210px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.search {
+    height: 30px;
+    margin-bottom: 4px;
+    opacity: 85%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+.search:focus {
+    outline: none;
+}
 .categories:hover {
     color: #B80F14;
-    font-size: 22px;
+    font-size: 21px;
 }
 /* section1 */
 .logo-background-wrapper {
@@ -59,7 +81,7 @@ header {
     background-color: #B80F14;
     width: 219px;
     height: 20px;
-    box-shadow: 15px 10px 20px grey;
+    box-shadow: 15px 5px 20px grey;
 }
 .slider {
     display: flex;
@@ -79,6 +101,13 @@ header {
     object-fit: cover;
     position: center;
 }
+.slick-prev {
+    left: -5%;
+    z-index: 5;
+}
+.slick-next {
+    right: -2%;
+}
 .hover-zoom {
     transition: ease-out 0.3s;
     position: relative;
@@ -96,34 +125,47 @@ header {
     font-family: 'Montserrat';
 }
 .fa-solid {
-    color: #B80F14;
+    color: black;
     font-size: 80px;
 }
+.section1-text-div {
+    display: flex;
+    max-width: 1500px;
+    width: 100%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: top;
+    padding-right: 100px;
+}
 .section1-headline {
-    color: white;
+    color: black;
     font-size: 50px;
     font-weight: 700;
+    font-family: 'Montserrat';
+    margin-bottom: 13px;
 }
 .section1-paragraph {
-    color: grey;
-    font-size: 24px;
+    color: black;
+    opacity: 75%;
+    font-size: 27px;
     font-family: 'Montserrat';
 }
 .read-more-div {
     width: 168px;
     height: 60px;
-    background-color: #E4DBF9;
+    background-color: black;
     display: flex;
     align-items: center;
     transition: linear 0.5s;
 }
 .read-more {
-    color: black;
+    color: white;
     font-size: 24px;
     margin: 0 auto;
     font-weight: 600;
     cursor: pointer;
     transition: linear 0.3s;
+    font-family: 'Montserrat';
 }
 .read-more-div:hover {
     background-color:#B80F14;
@@ -132,4 +174,9 @@ header {
     font-size: 26px;
     transition: linear 0.3s;
 
+}
+.fa-magnifying-glass {
+    color: white;
+    font-size: 20px;
+    margin-right: 5px;
 }
