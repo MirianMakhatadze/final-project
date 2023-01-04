@@ -75,7 +75,7 @@ footer {
     background-color: black;
     color: white;
     font-size: 20px;
-    font-family: var(--maincolor);
+    font-family: var(--mainfont);
 }
 .search:focus {
     outline: none;
@@ -86,18 +86,13 @@ footer {
 }
 /* section1 */
 .logo-background-wrapper {
-    max-width: 1540px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: left;
-    padding-right: 550px;
+    position: absolute;
+    top: 130px;
 }
 .logo-background {
     background-color: var(--maincolor);
     width: 219px;
     height: 20px;
-    box-shadow: 15px 5px 20px grey;
 }
 .slider {
     display: flex;
@@ -114,20 +109,18 @@ footer {
 .slider .slider_item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     position: center;
+    background-repeat: no-repeat;
 }
 .slick-prev {
     left: -5%;
     z-index: 5;
 }
-.slick-next {
-    right: -2%;
-    z-index: 6;
-}
 .hover-zoom {
+    width: 100%;
     transition: ease-out 0.3s;
-    position: relative;
+    /* position: relative; */
 }
 .hover-zoom:hover {
     transform: scale(1.03);
@@ -153,7 +146,7 @@ footer {
     color: grey;
     font-size: 80px;
     transition: linear 0.3s;
-    z-index: 8;
+    z-index: 9;
 }
 .fa-chevron-left:hover {
     color: black;
