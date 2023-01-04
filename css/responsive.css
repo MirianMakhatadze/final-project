@@ -1,0 +1,19 @@
+@media (max-width:1126px) {
+    .categories-nav {
+        display: none;
+    }
+    .categories-ul {
+        flex-direction: column;
+    }
+    .search-div {
+        display: none;
+    }
+    .burger-div {
+        display: flex;
+    }
+    .activebar {
+        display: flex;
+        margin-left: 50%;
+        height: 120px;
+    }
+}

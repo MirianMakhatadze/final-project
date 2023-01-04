@@ -25,8 +25,7 @@
     <header>
         <div class="header-div">
             <img class="logo" src="images/porsche-logo.png" alt="porsche-logo">
-            <div class="categories-wrapper">
-                <nav class="categories-ul">
+                <nav class="categories-nav"  id="navbar">
                     <ul class="categories-ul">
                         <li><a class="categories active" href="#">Home</a></li>
                         <li><a class="categories" href="#">SUV</a></li>
@@ -35,13 +34,15 @@
                         <li><a class="categories" href="#">Contact</a></li>
                     </ul>
                 </nav>
-            </div>
             <form action="">
                 <div class="search-div">
                     <i class="fa-solid fa-magnifying-glass"></i>
                     <input class="search" placeholder="Search here..." type="text" id="fname" name="fname">
                 </div>
             </form>
+            <div class="burger-div" id="burgerbar">
+                <i class="fa-solid fa-bars burger"></i>
+            </div>
         </div>
     </header>
     <div class="logo-background-wrapper">
@@ -77,22 +78,23 @@
         </div> 
     </section>
     <section>
+        <h2 class="discover">Discover</h2>
         <div class="section2-wrapper">
-            <div class="section2-block1">
-                <h2 class="about-us">About us</h2>
-                <p class="section2-paragraph">Ferdinand Porsche (1875–1951) founded the company
-                    with Adolf Rosenberger and  Anton Piëch in 1931. The main offices was at Kronenstraße 24 
-                    in the centre of Stuttgart.</p>
-                    <div class="block1-image-div">
-                        <img class="block1-img" src="images/block1-img.png" alt="">
-                    </div>
+            <div class="section2-block">
+                <img class="section2-image" src="images/porsche-news.png" alt="section-image">
+                <p class="section2-text"><i class="fa-solid fa-chevron-right"></i>Porsche news</p>
             </div>
-            <div class="section2-block1 margin">
-                <h2 class="about-us">Motorsport</h2>
-                <p class="section2-paragraph">Porsche has a record 19 outright wins at the 24 Hours of Le Mans. Porsche is currently the world's largest race car manufacturer. In 2007, Porsche was expected to construct no fewer than 275 dedicated race cars. </p>
-                <div class="block2-image-div">
-                    <img class="block2-img" src="images/porsche-motorsport-911-6346-image-big.png" alt="">
-                </div>
+            <div class="section2-block">
+                <img class="section2-image" src="images/about-us.png" alt="section-image">
+                <p class="section2-text"><i class="fa-solid fa-chevron-right"></i>About Us</p>
+            </div>
+            <div class="section2-block">
+                <img class="section2-image" src="images/porsche-finder.png" alt="section-image">
+                <p class="section2-text"><i class="fa-solid fa-chevron-right"></i>Porsche finder</p>
+            </div>
+            <div class="section2-block">
+                <img class="section2-image" src="images/porsche-design-online-shop.png" alt="section-image">
+                <p class="section2-text"><i class="fa-solid fa-chevron-right"></i>Porsche design online shop</p>
             </div>
         </div>
     </section>
@@ -119,6 +121,43 @@
                         <i class="fa-solid fa-chevron-right bot-div"></i>
                         <p class="find-car-text">Find Taycan Models</p>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="bottom-section-wrapper">
+            <div class="bottom-section-block">
+                <h2 class="bot-section-list-headline">Build & Find</h2>
+                <ul class="bot-section-list">
+                    <li class="bottom-section-text">Build your Porsche</li>
+                    <li class="bottom-section-text">Compare Models</li>
+                    <li class="bottom-section-text">Search Pre-Owned</li>
+                </ul>
+            </div>
+            <div class="bottom-section-block block2">
+                <h2 class="bot-section-list-headline">Online Services</h2>
+                <ul class="bot-section-list li2">
+                    <li class="bottom-section-text">Used Car Locator</li>
+                    <li class="bottom-section-text">Dealersearch</li>
+                </ul>
+            </div>
+            <div class="bottom-section-block block3">
+                <h2 class="bot-section-list-headline">Behind the Scenes</h2>
+                <ul class="bot-section-list li3">
+                    <li class="bottom-section-text">Passion Motorsports</li>
+                    <li class="bottom-section-text">Porsche Experience</li>
+                    <li class="bottom-section-text">Porsche Classic</li>
+                    <li class="bottom-section-text">Porsche Museum</li>
+                </ul>
+            </div>
+            <div class="bottom-section-block block3">
+                <h2 class="bot-section-list-headline">Porsche Company</h2>
+                <ul class="bot-section-list li3">
+                    <li class="bottom-section-text">At a Glance</li>
+                    <li class="bottom-section-text">Responsibility</li>
+                    <li class="bottom-section-text">Jobs & Careers</li>
+                    <li class="bottom-section-text">Christophorus - The Porsche Magazine</li>
+                </ul>
             </div>
         </div>
     </section>

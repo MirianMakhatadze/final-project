@@ -28,3 +28,15 @@ $(function(){
      ]
    });    
  });
+
+
+
+
+ //burgerbar
+
+ let navigationElement = document.getElementById('navbar');
+ let burgerbarElement = document.getElementById('burgerbar');
+
+ burgerbarElement.addEventListener('click', function() {
+ navigationElement.classList.toggle('activebar')
+ })
